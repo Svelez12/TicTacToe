@@ -4,8 +4,11 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             xmlns:infra="clr-namespace:TicTacToe.Infrastructure"
              x:Class="TicTacToe.App">
     <Application.Resources>
+        <!--Locator-->
+        <infra:InstanceLocator x:Key="Locator"/>
 
     </Application.Resources>
 </Application>
